@@ -21,19 +21,19 @@
   <body>
     <!-- Шапка сайта -->
     <header>
-      <div class="container">
+      <div class="container inline-item">
+        <p lang="en" class="Webstudio">
+          <span class="web">Web</span><span class="studio">Studio</span>
+        </p>
         <nav>
-          <p lang="en" class="Webstudio">
-            <span class="web">Web</span><span class="studio">Studio</span>
-          </p>
           <ul class="list">
-            <li>
+            <li class="item">
               <a href="#" class="list-links current">Студия</a>
             </li>
-            <li>
+            <li class="item">
               <a href="./portfolio.html" class="list-links">Портфолио</a>
             </li>
-            <li>
+            <li class="item">
               <a href="#" class="list-links">Контакты</a>
             </li>
           </ul>
@@ -60,55 +60,66 @@
 
       <!--Услуги-->
       <section>
-        <div class="container">
+        <div class="container list-description">
           <h2 hidden>список предоставляемых услуг</h2>
-          <h4 class="subtitle">Внимание к деталям</h4>
-          <p class="description">
-            Идейные соображения, а также начало повседневной работы по
-            формированию позиции.
-          </p>
-          <h4 class="subtitle">Пунктуальность</h4>
-          <p class="description">
-            Задача организации, в особенности же рамки и место обучения кадров
-            влечет за собой.
-          </p>
-          <h4 class="subtitle">Планирование</h4>
-          <p class="description">
-            Равным образом консультация с широким активом в значительной степени
-            обуславливает.
-          </p>
-          <h4 class="subtitle">Современные технологии</h4>
-          <p class="description">
-            Значимость этих проблем настолько очевидна, что реализация плановых
-            заданий.
-          </p>
+          <div class="margin-list">
+            <h4 class="subtitle">Внимание к деталям</h4>
+            <p class="description">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </div>
+          <div class="margin-list">
+            <h4 class="subtitle">Пунктуальность</h4>
+            <p class="description">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </div>
+          <div class="margin-list">
+            <h4 class="subtitle">Планирование</h4>
+            <p class="description">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </div>
+          <div class="margin-list">
+            <h4 class="subtitle">Современные технологии</h4>
+            <p class="description">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </div>
         </div>
       </section>
       <!--/Услуги-->
 
       <!-- Картинки - описание деятельности-->
-      <div class="container">
-        <section class="images-padding">
+      <section>
+        <div class="container">
           <h3 class="titles">Чем мы занимаемся</h3>
           <ul class="images">
-            <li>
+            <li class="list-images">
               <img
+                class="photo"
                 src="./img/activity-img1.jpg"
                 alt="верстка сайта"
                 width="370"
                 height="294"
               />
             </li>
-            <li>
+            <li class="list-images">
               <img
+                class="photo"
                 src="./img/activity-img2.jpg"
                 alt="дизайн приложения на мобильном устройстве"
                 width="370"
                 height="294"
               />
             </li>
-            <li>
+            <li class="list-images">
               <img
+                class="photo"
                 src="./img/activity-img3.jpg"
                 alt="тестирование приложения"
                 width="370"
@@ -116,16 +127,16 @@
               />
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
       <!-- /Картинки - описание деятельности-->
 
       <!-- Наша команда -->
       <section class="team">
-        <div class="container team-padding">
+        <div class="container">
           <h3 class="titles">Наша команда</h3>
           <ul class="images">
-            <li>
+            <li class="list-images">
               <img
                 class="photo"
                 src="./img/team-img1.jpg"
@@ -136,7 +147,7 @@
               <h4 class="text">Игорь Демьяненко</h4>
               <p lang="en" class="description">Product Designer</p>
             </li>
-            <li>
+            <li class="list-images">
               <img
                 class="photo"
                 src="./img/team-img2.jpg"
@@ -147,7 +158,7 @@
               <h4 class="text">Ольга Репина</h4>
               <p lang="en" class="description">Frontend Developer</p>
             </li>
-            <li>
+            <li class="list-images">
               <img
                 class="photo"
                 src="./img/team-img3.jpg"
@@ -158,7 +169,7 @@
               <h4 class="text">Николай Тарасов</h4>
               <p lang="en" class="description">Marketing</p>
             </li>
-            <li>
+            <li class="list-images">
               <img
                 class="photo"
                 src="./img/team-img4.jpg"
