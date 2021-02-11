@@ -7,6 +7,7 @@
   --primary-bg-color: #2F303A;
   --secondary-bg-color: #F5F4FA;
   --accent-text-link-color: rgba(255, 255, 255, 0.6);
+  --border-color: #EEEEEE;
 }
 
 body {
@@ -160,7 +161,7 @@ body {
 .images {
   padding: 0px;
   margin: 0px;
-  margin-bottom: 95px;
+  margin-bottom: 95px; 
   display: flex;
   justify-content: space-between; 
   list-style: none;
@@ -211,18 +212,21 @@ body {
 /* /Картинки - описание деятельности */
 
 /* Наша команда */
+.photo {
+  display: block; 
+}
 .team { 
   background-color: var(--secondary-bg-color);
 }
-
-.team-container {
-  padding-top: 94px; 
-  padding-bottom: 94px;
+.team-bottom {
+  margin-bottom: 0px;
 }
-
 .team-photo {
   width: 270px;
-  height: 260px; 
+  margin-bottom: 94px; 
+  /* height: 260px;  */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+ border-radius: 0px 0px 4px 4px;
 }
 
 .text {
@@ -332,7 +336,16 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;   
 }
-
+.border {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-text-color);
+  border: 1px solid var(--border-color);
+}
+.border:nth-last-child(-n+3) {
+  margin-bottom: 94px;
+}
 .image-description .title-bar {
   font-weight: bold;
   font-size: 18px;
