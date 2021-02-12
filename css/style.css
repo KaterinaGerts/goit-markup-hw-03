@@ -47,6 +47,7 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;  
+  letter-spacing: 0.03em;
   color: var(--accent-text-studio-color);
 }
 
@@ -60,6 +61,7 @@ body {
 
 .list {
   display: flex;
+  margin:0px;
 }
 
 .list,
@@ -181,15 +183,20 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .first-description {
   margin-top: 0px; 
-  margin-bottom: 0px;      
+  margin-bottom: 0px; 
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+     
   font-size: 14px;
   line-height: 1.7;
-    }
+  letter-spacing: 0.03em;
+  }
 
   .first-description:last-child {
     margin-right: 0px;
@@ -206,6 +213,7 @@ body {
 .titles {
   margin: 0px;
   margin-bottom: 50px;
+  
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
@@ -228,7 +236,7 @@ body {
   width: 270px;
   margin-bottom: 94px;  
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
- border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .text {
@@ -262,19 +270,24 @@ body {
 
 .adress .location {
   margin: 0px;
-  margin-bottom: 10px;
-  color: var(--secondary-text-color);
+  margin-bottom: 9px;
+  
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .adress .address-color {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 9px;
   text-decoration: none;
+
   font-style:normal;
   font-size: 14px;
-  line-height: 1.7; 
+  line-height: 1.714;
+  letter-spacing: 0.03em; 
   color: var(--accent-text-link-color);
 }
 
