@@ -28,11 +28,12 @@ body {
 
    /* outline: 1px solid blue;  */
 }
- .border-line {    
+.border-line {  
   border: 1px solid var(--border-line-color);  
 } 
 
 .inline-item {
+  height: 80px; 
   display: flex;
   align-items: center;
   }
@@ -70,10 +71,9 @@ body {
 }
 
 .list .list-links {
-  display: block; 
-  padding-top: 32px;
-  padding-bottom: 32px;
- 
+  display: flex;
+  align-items: center;
+   
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -101,9 +101,7 @@ body {
 .address .adress-color {
   display: block;
   margin-right: 50px;  
-  padding-top: 32px; 
-  padding-bottom: 32px; 
-
+  
   font-style: normal;
   font-size: 14px;
   line-height: 1.4;
@@ -305,9 +303,9 @@ body {
   margin-bottom: 20px;
 }
 
-.padding-contacts {
+.padding-contacts {  
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 60px; 
 }
 /* /Контакты */
 
