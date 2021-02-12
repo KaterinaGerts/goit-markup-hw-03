@@ -124,6 +124,7 @@ body {
 .hero-container {
   padding-top: 200px;
   padding-bottom: 200px;
+  /* height: 600px; */
 }
 .hero { 
   margin-bottom: 94px;  
@@ -133,7 +134,7 @@ body {
 
 .hero .hero-text { 
   margin: 0px;
-  margin-bottom: 40px; 
+  margin-bottom: 30px; 
   margin-left: auto; 
   margin-right: auto;
   width: 640px; 
@@ -149,7 +150,8 @@ body {
 .hero .button {
   display: inline-block;
   border-radius: 4px;
-  padding: 10px 32px;  
+  padding: 10px 32px;
+  width: 200px;  
   
   text-decoration: none;
   font-weight: bold;
@@ -171,7 +173,7 @@ body {
   list-style: none;
 }
 .list-bar {
-  margin-bottom: 0px;
+  margin-bottom: 94px;
 }
 
 .list-description {    
@@ -217,7 +219,7 @@ body {
   margin: 0px;
   margin-bottom: 50px;
   padding-top: 94px;
-  
+    
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
@@ -268,7 +270,8 @@ body {
 /* /Наша команда */
 
 /* Контакты */
-.contacts {  
+.contacts { 
+  height: 252px; 
   background-color: var(--primary-bg-color);
 }
 
@@ -286,11 +289,11 @@ body {
 .adress .address-color {
   display: block;
   margin-bottom: 9px;
-  text-decoration: none;
-
+  text-decoration: none;  
+  
   font-style:normal;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.7;
   letter-spacing: 0.03em; 
   color: var(--accent-text-link-color);
 }
